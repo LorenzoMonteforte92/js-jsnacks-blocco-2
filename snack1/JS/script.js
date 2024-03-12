@@ -3,4 +3,12 @@
 
 // chiedere numero all'utente
 userNumber = parseInt(prompt(`Inserisci un numero`));
-console.log(userNumber)
+
+
+// se è pari stampo il numero altrimenti stampo quello successivo
+oddNext = userNumber + 1;
+if(userNumber % 2 === 0){
+    console.log(userNumber);
+}else{
+    console.log(oddNext);
+}
