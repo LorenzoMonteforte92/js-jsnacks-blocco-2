@@ -5,5 +5,11 @@
 userWordOne = prompt(`inserisci la prima parola`);
 userWordTwo = prompt(`inserisci la seconda parola`);
 
-console.log(userWordOne);
-console.log(userWordTwo);
+//mettere a confronto le parole e stampare prima quella più corta poi quella lunga
+if(userWordOne.length > userWordTwo.length ){
+    console.log(userWordTwo);
+    console.log(userWordOne);
+} else{
+    console.log(userWordOne);
+    console.log(userWordTwo);
+}
